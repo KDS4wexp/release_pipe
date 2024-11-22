@@ -1,8 +1,11 @@
 name: Release Pipeline
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
+on:
+  workflow_dispatch:
+    
 jobs:
-  build:
+  build-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
