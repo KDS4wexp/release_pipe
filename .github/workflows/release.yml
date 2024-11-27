@@ -29,6 +29,9 @@ jobs:
         run: |
           npm install
           npm clean-install
+          npm install --save-dev semantic-release @semantic-release/git @semantic-release/gitlab @semantic-release/exec @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/release-notes-generator 
+
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
