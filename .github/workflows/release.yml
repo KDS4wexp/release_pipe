@@ -36,8 +36,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install
-          npm ci
           npm clean-install
 
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
@@ -56,4 +54,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }}
         run: npx semantic-release
 
-        
