@@ -4,8 +4,7 @@ branches:
 plugins:
 - '@semantic-release/release-notes-generator'
 - '@semantic-release/commit-analyzer' 
-- '@semantic-release/changelog' 
-- '@semantic-release/gitlab' 
+- '@semantic-release/changelog'  
 - 
 
   - '@semantic-release/exec'
