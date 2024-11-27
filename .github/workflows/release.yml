@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - master # or main
+      - main # or main
 
 permissions:
   contents: read # for checkout
@@ -35,4 +35,3 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
 
-        
