@@ -4,6 +4,9 @@ on:
     branches:
       - release_feature
 
+permissions:
+  contents: read # for checkout
+
 jobs:
   release:
     name: Release
