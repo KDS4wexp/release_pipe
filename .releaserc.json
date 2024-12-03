@@ -1,0 +1,56 @@
+{
+	"branches": ["release_feature"],
+	"plugins": [
+		"@semantic-release/changelog",
+		[
+			"@semantic-release/exec",
+			{
+				"successCmd": "echo 'LAST_TAG=${nextRelease.gitTag}' > last_tag.env"
+			}
+		],
+		[
+			"@semantic-release/git",
+			{
+				"assets": ["some_file.txt", "package.json", "CHANGELOG.md"]
+			}
+		]
+	],
+	"releaseRules": [
+		{
+			"type": "feat",
+			"release": "minor"
+		},
+		{
+			"type": "fix",
+			"release": "patch"
+		},
+		{
+			"type": "perf",
+			"release": "patch"
+		},
+		{
+			"type": "breaking",
+			"release": "major"
+		},
+		{
+			"type": "docs",
+			"release": false
+		},
+		{
+			"type": "style",
+			"release": false
+		},
+		{
+			"type": "refactor",
+			"release": false
+		},
+		{
+			"type": "test",
+			"release": false
+		},
+		{
+			"type": "chore",
+			"release": false
+		}
+	]
+}
