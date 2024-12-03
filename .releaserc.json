@@ -1,9 +1,11 @@
 {
 	"branches": ["release_feature"],
 	"plugins": [
-		"@semantic-release/changelog",
 		[
-			{ "changelogFile": "CHANGELOG.md" }
+			"@semantic-release/changelog",
+			{
+				"changelogFile": "CHANGELOG.md"
+			}
 		],
 		[
 			"@semantic-release/git",
