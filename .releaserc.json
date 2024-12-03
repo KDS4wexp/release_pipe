@@ -3,10 +3,7 @@
 	"plugins": [
 		"@semantic-release/changelog",
 		[
-			"@semantic-release/exec",
-			{
-				"successCmd": "echo 'LAST_TAG=${nextRelease.gitTag}' > last_tag.env"
-			}
+			"@semantic-release/exec"
 		],
 		[
 			"@semantic-release/git",
