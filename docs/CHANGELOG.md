@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/KDS4wexp/release_pipe/compare/v1.15.0...v1.16.0) (2024-12-04)
+
+
+### Features
+
+* gugu gaga ([32e79f1](https://github.com/KDS4wexp/release_pipe/commit/32e79f1d6df43c697913a42155a452b9698a0c63))
+
 # [1.15.0](https://github.com/KDS4wexp/release_pipe/compare/v1.14.0...v1.15.0) (2024-12-04)
 
 
