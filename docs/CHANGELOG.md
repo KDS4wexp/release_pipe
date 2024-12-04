@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/KDS4wexp/release_pipe/compare/v1.16.0...v1.16.1) (2024-12-04)
+
+
+### Bug Fixes
+
+* milk ([271a98b](https://github.com/KDS4wexp/release_pipe/commit/271a98b4623776db62a3e784787b86d727648ebd))
+
 # [1.16.0](https://github.com/KDS4wexp/release_pipe/compare/v1.15.0...v1.16.0) (2024-12-04)
 
 
