@@ -11,7 +11,7 @@
 		[
 			"@semantic-release/git",
 			{
-				"assets": ["docs/CHANGELOG.md"]
+				"assets": ["some_file.txt", "docs/CHANGELOG.md"]
 			}
 		],
 		"@semantic-release/github",
